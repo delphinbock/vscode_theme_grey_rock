@@ -1,0 +1,46 @@
+{
+  "name": "grey-rock-theme",
+  "displayName": "grey-rock-theme",
+  "description": "grey light theme for vscode",
+  "version": "0.0.1",
+  "publisher": "delphinbock",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Delphin Bock",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "homepage": "",
+  "galleryBanner": {
+    "color": "#FFFFFF",
+    "theme": "light"
+  },
+  "keywords": [
+    "Themes",
+    "Light Theme",
+    "color-theme",
+    "Grey-Rock-Theme"
+  ],
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grey Rock theme",
+        "uiTheme": "vs",
+        "path": "./themes/Grey Rock theme-color-theme.json"
+      }
+    ]
+  }
+}
